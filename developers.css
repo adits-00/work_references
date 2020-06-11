@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 26, 2020, 1:48:38 PM
+    Author     : SPECTRE
+*/
+
+/*
+external css
+*/
+
+
+
+ul {
+
+  list-style-type: none;
+
+  margin: -15px;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  background-color: #333;
+
+}
+
+
+
+li {
+
+  float: right;
+
+}
+
+
+
+li a {
+
+  display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+}
+
+
+
+li a:hover {
+
+  background-color: #111;
+
+}
+
+.center {
+
+
+
+  display: flex;
+
+  justify-content: center;
+
+ }
+
+.limiter {
+
+  width: 100%;
+
+  /8margin: 0 auto;*/
+
+}
+
+.container-login100 {
+
+  width: 100%;  
+
+  min-height: 100vh;
+
+  /*display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*align-items: center;*/
+
+  padding: 15px;*/
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: cover;
+  margin: -5px;
+
+}
+@import url('http://fonts.googleapis.com/css?family=Kavoon');
+
+
+h1{
+    font-family:'Kavoon'; 
+    color:#033c40;
+    font-size:30px;
+    text-align:center;
+}
+
+.thumbnail{
+ width:auto;
+ display: inline-block;
+ height: auto;
+ padding: 4px;
+ margin-bottom: 10px;
+ background-color: #fcfaf5;
+ border: 1px solid #a4a4a4;
+ text-align:center;
+ color:#666;
+ margin-right:70px;
+ float:left;
+ border-radius: 10px;
+}
+
+.box{
+    display:inline-block;
+    width:50%;
+    float:left;
+}
+
+@media(max-width:991px){
+    .thumbnail{
+ width:auto;
+ display: block;
+ height: auto;
+ padding: 4px;
+ margin-bottom: 10px;
+ background-color: #fff;
+ border: 1px solid #a4a4a4;
+ text-align:center;
+ color:#666;
+ margin-right:70px;
+ float:left;
+ 
+}
+}
+
+.img{
+    border-radius: 10px;
+}
